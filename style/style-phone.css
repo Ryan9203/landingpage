@@ -1,0 +1,9 @@
+@import url(./font.css);
+@import url(./reset.css);
+
+@media screen and (max-width: 360px) {
+  body {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

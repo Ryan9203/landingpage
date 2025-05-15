@@ -2,17 +2,23 @@
 
 body {
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  display: inline-block;
 }
 
 header {
-  width: 100%;
-  padding: 0px 20px;
   background-color: #F2E9D8;
   position: fixed;
 
+  width: 100%;
+  padding: 0px 20px;
 }
 
 h1 {
@@ -20,7 +26,7 @@ h1 {
 }
 
 nav {
-  max-width: 1340px;
+  max-width: 1320px;
   padding: 26px 0px;
 
   display: flex;
@@ -41,7 +47,7 @@ ul {
   gap: 30px;
 }
 
-li:nth-child(4) {
+nav li:nth-child(4) {
   padding-left: 40px;
 }
 
@@ -55,9 +61,246 @@ a {
 .button {
   padding: 15px 30px;
   background-color: #D97652;
-  ;
+  
+  font-weight: 700;
+  color: white;
+
+
+  border-radius: 40px;
 }
 
 .menu-bt {
   display: none;
+}
+
+main {
+  width: 100%;
+}
+
+.ad {
+  width: 100%;
+  background-color: #F2E9D8;
+}
+
+.section-ad {
+  max-width: 1320px;
+  padding: 134px 20px 0px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-ad h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.section-ad p {
+  margin-top: 40px;
+}
+
+.section-ad div a {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.ad-img {
+  width: 415px;
+  height: 766px;
+  position: relative;
+}
+
+.ad-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.section-best {
+  max-width: 1320px;
+  padding: 80px 20px 120px 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 110px;
+}
+
+.section-best img {
+  width: 100%;
+  aspect-ratio: 22 /13;
+  object-fit: contain;
+
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 25%);
+}
+
+.section-best h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-best p {
+  margin-top: 30px;
+}
+
+.section-recommened {
+  max-width: 1320px;
+  padding: 0px 20px 90px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 90px;
+}
+
+.section-recommened h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #D97652;
+}
+
+.subtext {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.section-recommened p span {
+  color: #D97652;
+}
+
+.section-recommened ul li img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 25%);
+}
+
+.section-recommened ul {
+  gap: 72px;
+}
+
+.learn-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 52px;
+}
+
+.section-recommened a {
+  display: inline-block;
+}
+
+.section-warp {
+  position: relative;
+}
+
+.section-submit {
+  max-width: 1320px;
+  padding: 50px 58px;
+  border-radius: 30px;
+  background-color: #263140;
+
+  position: absolute;
+  z-index: 5;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 143px;
+}
+
+.submit-text {
+  color: white;
+}
+
+.section-submit h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-submit p {
+  font-size: 14px;
+
+  margin-top: 18px;
+}
+
+input {
+  border: 0;
+}
+
+form img {
+  margin-right: 16px;
+}
+
+.email-feild {
+  padding: 5px 5px 5px 28px;
+  background-color: white;
+  border-radius: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 129px;;
+}
+
+.email-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-img {
+  width: 100%;
+  height: 0;
+  padding-top: 340px;
+  position: relative;
+}
+
+.background-img img {
+  top: 106px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 3;
+}
+
+footer {
+  max-width: 1320px;
+  padding: 106px 20px 45px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  width: 226px;
+  height: 70px;
+}
+
+footer ul {
+}
+
+footer a {
+  padding: 9px;
+  border-radius: 24px;
+  background-color: #F29D52;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer ul img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
 }

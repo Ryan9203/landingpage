@@ -1,9 +1,57 @@
 @import url(./font.css);
-@import url(./reset.css);
 
 @media screen and (max-width: 360px) {
-  body {
-    font-size: 14px;
-    font-weight: 400;
+
+/* body {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+  header {
+    width: 100%;
+    padding: 22px 20px;
+    background-color: #F2E9D8;
+
+    position: fixed;
   }
+
+  h1 {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  nav img {
+    width: 92px;
+    height: 28px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav ul a {
+    display: none;
+  }
+
+  .menu-bt {
+    display: inline-block;
+  }
+
+  .item img {
+    width: 32px;
+    height: 32px;
+  }
+
+  a {
+    text-decoration: none;
+  } */
+
 }

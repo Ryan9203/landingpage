@@ -4,13 +4,14 @@ body {
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   font-size: 16px;
   font-weight: 400;
-
-  display: flex;
-  flex-direction: column;
 }
 
 p {
   display: inline-block;
+}
+
+h1 {
+  display: none;
 }
 
 header {
@@ -18,17 +19,19 @@ header {
   position: fixed;
 
   width: 100%;
-  padding: 0px 20px;
-}
+  height: 102px;
 
-h1 {
-  display: none;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
 }
 
 nav {
+  width: 100%;
   max-width: 1320px;
-  padding: 26px 0px;
+  padding: 26px 20px;
 
+  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,14 +51,13 @@ ul {
 }
 
 nav li:nth-child(4) {
-  padding-left: 40px;
+  padding-left: 10px;
 }
 
 a {
   text-decoration: none;
   font-size: 16px;
   color: black;
-  
 }
 
 .button {
@@ -75,14 +77,19 @@ a {
 
 main {
   width: 100%;
+
 }
 
 .ad {
   width: 100%;
   background-color: #F2E9D8;
+
+  display: flex;
+  justify-content: center;
 }
 
 .section-ad {
+  width: 100%;
   max-width: 1320px;
   padding: 134px 20px 0px 20px;
 
@@ -90,6 +97,12 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+
+/* .ad-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+} */
 
 .section-ad h2 {
   font-size: 48px;
@@ -101,7 +114,6 @@ main {
 }
 
 .section-ad div a {
-  display: inline-block;
   margin-top: 40px;
 }
 
@@ -118,6 +130,11 @@ main {
   object-fit: contain;
 }
 
+.best {
+  display: flex;
+  justify-content: center;
+}
+
 .section-best {
   max-width: 1320px;
   padding: 80px 20px 120px 20px;
@@ -129,7 +146,7 @@ main {
 }
 
 .section-best img {
-  width: 100%;
+  width: 50%;
   aspect-ratio: 22 /13;
   object-fit: contain;
 
@@ -144,6 +161,11 @@ main {
 
 .section-best p {
   margin-top: 30px;
+}
+
+.recommened {
+  display: flex;
+  justify-content: center;
 }
 
 .section-recommened {
@@ -191,16 +213,15 @@ main {
   gap: 52px;
 }
 
-.section-recommened a {
-  display: inline-block;
-}
-
 .section-warp {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .section-submit {
   max-width: 1320px;
+  margin: 0px 20px;
   padding: 50px 58px;
   border-radius: 30px;
   background-color: #263140;
@@ -272,12 +293,24 @@ form img {
 }
 
 footer {
-  max-width: 1320px;
   padding: 106px 20px 45px 20px;
+
+  display: flex;
+  justify-content: center;
+}
+
+footer nav {
+  width: 100%;
+  max-width: 1320px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+}
+
+footer h2 {
+  display: none;
 }
 
 footer img {

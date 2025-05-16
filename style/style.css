@@ -11,6 +11,8 @@ p {
 }
 
 header {
+  padding: 26px 20px;
+
   background-color: #f2e9d8;
   position: fixed;
   width: 100%;
@@ -22,13 +24,10 @@ header {
   justify-content: space-between;
   align-items: center;
   max-width: 1320px;
-  height: 102px;
   margin: auto;
 }
 
 nav {
-  padding: 26px 20px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -179,6 +178,10 @@ main {
   gap: 90px;
 }
 
+.title {
+  text-align: center;
+}
+
 .section-recommened h2 {
   font-size: 48px;
   font-weight: 700;
@@ -187,7 +190,6 @@ main {
 
 .subtext {
   margin-top: 40px;
-  text-align: center;
 }
 
 .section-recommened p span {
@@ -214,20 +216,23 @@ main {
   gap: 52px;
 }
 
-.section-warp {
+.section-warp{
   width: 100%;
+  margin: auto;
 }
 
 .section-submit {
+  padding: 0px 20px;
+}
+
+.section-warp section {
   position: relative;
-  width: 100%;
   max-width: 1320px;
   margin: auto;
 }
 
 .submit-warp {
   width: 100%;
-  margin: auto;
   padding: 50px 58px;
   border-radius: 30px;
   background-color: #263140;
@@ -238,19 +243,18 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 143px;
 }
 
 .submit-text {
   color: white;
 }
 
-.section-submit h2 {
+.section-text h2 {
   font-size: 36px;
   font-weight: 700;
 }
 
-.section-submit p {
+.section-text p {
   font-size: 14px;
 
   margin-top: 18px;

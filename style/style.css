@@ -35,10 +35,10 @@ nav {
 
 nav {
   margin-left: auto;
-} */
+} 
 
 
-nav img {
+h1 img {
   width: 130px;
   height: 40px;
 }
@@ -79,7 +79,6 @@ a {
 
 main {
   width: 100%;
-
 }
 
 .ad {
@@ -107,6 +106,14 @@ main {
 .section-ad h2 {
   font-size: 48px;
   font-weight: 700;
+}
+
+.line-ph {
+  display: none;
+}
+
+.unline-ph {
+  display: block;
 }
 
 .section-ad p {

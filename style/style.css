@@ -10,32 +10,34 @@ p {
   display: inline-block;
 }
 
-h1 {
-  display: none;
-}
-
 header {
-  background-color: #F2E9D8;
+  background-color: #f2e9d8;
   position: fixed;
-
   width: 100%;
-  height: 102px;
-
-  display: flex;
-  justify-content: center;
   z-index: 100;
 }
 
-nav {
-  width: 100%;
+.header-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   max-width: 1320px;
+  height: 102px;
+  margin: auto;
+}
+
+nav {
   padding: 26px 20px;
 
-  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+nav {
+  margin-left: auto;
+} */
+
 
 nav img {
   width: 130px;
@@ -55,6 +57,7 @@ nav li:nth-child(4) {
 }
 
 a {
+  margin-right: auto;
   text-decoration: none;
   font-size: 16px;
   color: black;
@@ -83,14 +86,12 @@ main {
 .ad {
   width: 100%;
   background-color: #F2E9D8;
-
-  display: flex;
-  justify-content: center;
 }
 
 .section-ad {
   width: 100%;
   max-width: 1320px;
+  margin: auto;
   padding: 134px 20px 0px 20px;
 
   display: flex;
@@ -98,11 +99,11 @@ main {
   align-items: center;
 }
 
-/* .ad-text {
+.ad-text {
   display: flex;
   flex-direction: column;
   justify-content: left;
-} */
+}
 
 .section-ad h2 {
   font-size: 48px;
@@ -214,20 +215,25 @@ main {
 }
 
 .section-warp {
-  position: relative;
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 .section-submit {
+  position: relative;
+  width: 100%;
   max-width: 1320px;
-  margin: 0px 20px;
+  margin: auto;
+}
+
+.submit-warp {
+  width: 100%;
+  margin: auto;
   padding: 50px 58px;
   border-radius: 30px;
   background-color: #263140;
 
   position: absolute;
-  z-index: 5;
+  z-index: 30;
 
   display: flex;
   justify-content: space-between;
@@ -276,6 +282,7 @@ form img {
 }
 
 .background-img {
+  top: 106px;
   width: 100%;
   height: 0;
   padding-top: 340px;
@@ -283,34 +290,53 @@ form img {
 }
 
 .background-img img {
-  top: 106px;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   position: absolute;
   object-fit: cover;
-  z-index: 3;
+}
+
+.scroll-warp {
+  position: absolute;
+  left: 96%;
+  z-index: 50;
+}
+
+.scroll-warp a {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: solid 1px #C4C4C4;
+  border-radius: 25px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-bt {
+  opacity: 50%;
+}
+
+.scroll-bt:hover {
+  opacity: 100%;
 }
 
 footer {
-  padding: 106px 20px 45px 20px;
-
-  display: flex;
-  justify-content: center;
-}
-
-footer nav {
+  padding: 160px 20px 45px 20px;
+  margin: auto;
   width: 100%;
   max-width: 1320px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-footer h2 {
-  display: none;
+footer nav {
+
 }
 
 footer img {

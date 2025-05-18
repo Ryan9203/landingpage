@@ -1,0 +1,276 @@
+
+body {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-size: 16px;
+  font-weight: 400;
+}
+p h2 a {
+  font-size: 16px;
+  font-weight: 400;
+}
+header {
+  padding: 26px 20px;
+
+  background-color: #f2e9d8;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.header-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  margin-left: auto;
+} 
+h1 img {
+  width: 130px;
+  height: 40px;
+}
+ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+nav li:nth-child(4) {
+  padding-left: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+.button {
+  padding: 15px 30px;
+  background-color: #D97652;
+  
+  font-weight: 700;
+  color: white;
+
+  border-radius: 40px;
+}
+.menu-bt {
+  display: none;
+}
+
+main {
+  width: 100%;
+}
+section {
+  width: 100%;
+  max-width: 1320px;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+.content {
+  width: 100%;
+  background-color: #f2e9d8;
+  padding-top: 134px;
+}
+.ad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.ad h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.ad p {
+  margin-bottom: 40px;
+}
+.ad a {
+  display: inline-block;
+}
+.ad img {
+  width: 415px;
+  height: 766px;
+}
+
+.about {
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 110px;
+  margin-bottom: 88px;
+}
+.about img {
+  width: 50%;
+  aspect-ratio: 22 /13;
+  object-fit: contain;
+
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 25%);
+}
+.about h2 {
+  margin-bottom: 30px;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog .title {
+  text-align: center;
+  margin-bottom: 88px;
+}
+.blog h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #D97652;
+  margin-bottom: 40px;
+}
+.blog p span {
+  color: #D97652;
+}
+.blog ul {
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+  margin-bottom: 90px;
+}
+.blog li img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 25%);
+}
+.blog .learn-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 52px;
+  margin-bottom: 88px;
+}
+
+.support {
+  max-width: 100%;
+  padding: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe {
+  background-color: #263140;
+  color: white;
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+  border-radius: 30px;
+  padding: 50px 58px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  z-index: 50;
+  
+}
+.subscribe h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.subscribe p {
+  font-size: 14px;
+}
+.email {
+  padding: 5px 5px 5px 28px;
+  background-color: white;
+  border-radius: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 129px;;
+}
+.email input {
+  border: 0;
+}
+.email-feild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.container {
+  top: 106px;
+  width: 100%;
+  height: 0;
+  padding-top: 340px;
+  position: relative;
+}
+.background {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.scroll-bt {
+  background-color: white;
+  bottom: 24px;
+  right: 24px;
+  padding: 5px;
+  border: 1px solid #C4C4C4;
+  border-radius: 50px;
+  position: absolute;
+  z-index: 100;
+}
+.scroll-bt img {
+  opacity: 50%;
+}
+.scroll-bt:hover {
+  opacity: 100%;
+}
+
+footer {
+  width: 100%;
+  max-width: 1320px;
+  padding: 151px 20px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer img {
+  width: 226px;
+  height: 70px;
+}
+footer ul {
+  display: flex;
+  gap: 20px;
+}
+footer a {
+  background-color: #F29D52;
+  border-radius: 21px;
+  padding: 9px;
+}
+footer a img {
+  width: 24px;
+  height: 24px;
+}
+footer .tap-menu {
+  display: none;
+}

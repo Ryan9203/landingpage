@@ -6,27 +6,27 @@
 
 ---
 
-##파일구조
+## 파일구조
 
-#####├─ index.html
+##### ├─ index.html
 
-#####├─ style
+##### ├─ style
 
-#####│    ├─ style.css
+##### │    ├─ style.css
 
-#####│    ├─ style-phone.css
+##### │    ├─ style-phone.css
 
-#####│    └─ style-responsive.css
+##### │    └─ style-responsive.css
 
-#####├─ img
+##### ├─ img
 
-#####├─ font.css
+##### ├─ font.css
 
-#####└─ reset.css
+##### └─ reset.css
 
 ---
 
-##작업 사항
+## 작업 사항
 
 * 노션을 통해 공유된 요구사항 명세 및 Figma 디자인 적용
 

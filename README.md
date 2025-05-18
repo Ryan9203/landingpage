@@ -8,21 +8,21 @@
 
 ##파일구조
 
-├─ index.html
+#####├─ index.html
 
-├─ style
+#####├─ style
 
-│    ├─ style.css
+#####│    ├─ style.css
 
-│    ├─ style-phone.css
+#####│    ├─ style-phone.css
 
-│    └─ style-responsive.css
+#####│    └─ style-responsive.css
 
-├─ img
+#####├─ img
 
-├─ font.css
+#####├─ font.css
 
-└─ reset.css
+#####└─ reset.css
 
 ---
 

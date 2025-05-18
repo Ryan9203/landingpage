@@ -135,6 +135,7 @@
     width: 100%;
 
     border-radius: 18px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 25%);
   }
 
   .section-best h2 {
@@ -144,5 +145,110 @@
   .section-best p {
     margin-top: 20px;
   }
+
+  .section-recommened {
+    padding: 0px 32px 50px 32px;
+    gap: 50px;
+  }
+
+.section-recommened h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #D97652;
+}
+
+.subtext {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.section-recommened ul li img {
+  border-radius: 18px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 25%);
+}
+
+.section-recommened ul {
+  gap: 20px;
+}
+
+.learn-more {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.learn-more a {
+  margin-left: auto;
+}
+
+.section-submit {
+  padding: 0px 32px;
+}
+
+.submit-warp {
+  padding: 36px 32px 30px 32px;
+  border-radius: 18px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.submit-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-text h2 {
+  font-size: 24px;
+}
+
+.section-text p {
+  font-size: 14px;
+}
+
+
+
+
+
+.background-img {
+  top: 280px;
+  padding-top: 240px;
+}
+
+.scroll-warp {
+  display: none;
+}
+
+footer {
+  padding: 360px 20px 24px 20px;
+  margin-right: auto;
+
+  flex-direction: column;
+  justify-content: left;
+}
+footer img {
+  width: 112px;
+  height: 34px;
+}
+
+footer a {
+  padding: 7px;
+  border-radius: 20px;
+  background-color: #F29D52;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer ul img {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+
 
 }

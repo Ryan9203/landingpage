@@ -8,20 +8,13 @@
 
 ## 파일구조
 
-##### ├─ index.html
-
+###### ├─ index.html
 ###### ├─ style
-
 ###### │    ├─ style.css
-
 ###### │    ├─ style-phone.css
-
 ###### │    └─ style-responsive.css
-
 ###### ├─ img
-
 ###### ├─ font.css
-
 ###### └─ reset.css
 
 ---

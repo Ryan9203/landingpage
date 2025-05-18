@@ -331,3 +331,26 @@
     margin-bottom: 28px;
   }
 }
+
+@media screen and (max-width: 580px) {
+  .content {
+    padding-top: 116px;
+  }
+  .ad {
+    text-align: left;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  .ad h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .ad p {
+    margin-bottom: 30px;
+  }
+  .ad img {
+    width: 197px;
+    height: 422px;
+  }
+}

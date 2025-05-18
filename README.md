@@ -8,14 +8,14 @@
 
 ## 파일구조
 ```C
-###### ├─ index.html
-###### ├─ style
-###### │    ├─ style.css
-###### │    ├─ style-phone.css
-###### │    └─ style-responsive.css
-###### ├─ img
-###### ├─ font.css
-###### └─ reset.css
+├─ index.html
+├─ style
+│    ├─ style.css
+│    ├─ style-phone.css
+│    └─ style-responsive.css
+├─ img
+├─ font.css
+└─ reset.css
 ```
 ---
 

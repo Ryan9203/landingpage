@@ -1,10 +1,131 @@
-/* @media screen and (max-width: 720px) {
+
+@media screen and (max-width: 1280px) {
+  .content {
+    padding-top: 116px;
+  }
+  .ad {
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  .ad h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .ad p {
+    margin-bottom: 30px;
+  }
+  .ad img {
+    width: 360px;
+    height: 700px;
+  }
+
+  .about {
+    margin-bottom: 100px;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .about img {
+    width: 50%;
+    border-radius: 26px;
+  }
+  .about h2 {
+    font-size: 30px;
+  }
+  
+  .blog .title {
+    margin-bottom: 62px;
+  }
+  .blog h2 {
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+  .blog ul {
+    width: 100%;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  .blog li img {
+    border-radius: 26px;
+  }
+  .blog .learn-text {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+  }
+  .subscribe {
+    width: 96%;
+  }
+  .email-feild {
+    width: 400px;
+  }
+  footer ul {
+    display: flex;
+    gap: 16px;
+  }
+  footer a img {
+    width: 18px;
+    height: 18px;
+  }
+  footer .sitemap {
+    display: none;
+  }
+
+  .menulist {
+    width: 75%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 20px 22px;
+    background-color: #263140;
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 66px;
+    z-index: 100;
+  }
+  .menulist ul {
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 30px;
+  }
+  .menulist li:nth-child(4) {
+    margin-top: 20px;
+  }
+  .menulist li a {
+    color: white;
+    font-weight: 700;
+  }
+  .hamburger-menu .background {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 25%;
+
+    position: fixed;
+    z-index: 80;
+   }
+}
+
+@media screen and (max-width: 720px) {
   body {
     font-size: 14px;
   }
+  .line {
+    display: inline-block;
+  }
+  .unline {
+    display: none;
+  }
 
   header {
-    padding: 24px 20px;
+    padding: 22px 20px;
+  }
+  h1 {
+    font-size: 0px;
   }
   h1 img {
     width: 92px;
@@ -22,6 +143,8 @@
   }
   .menu-bt {
     display: block;
+    width: 32px;
+    height: 32px;
   }
 
   section {
@@ -32,8 +155,8 @@
     padding-top: 116px;
   }
   .ad {
-    text-align: center;
-    flex-direction: column;
+    text-align: left;
+    flex-direction: row;
     gap: 30px;
     margin-bottom: 40px;
   }
@@ -71,10 +194,18 @@
     margin-bottom: 30px;
   }
   .blog ul {
+    width: 100vw;
+    height: 310px;
     gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    overflow: scroll;
+  }
+  ul::-webkit-scrollbar {
+    border-style: none;
   }
   .blog li img {
+    left: 0;
+    width: 260px;
     border-radius: 18px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 25%);
   }
@@ -85,7 +216,7 @@
   }
 
   .subscribe {
-    max-width: 326px;
+    max-width: 680px;
     border-radius: 18px;
     padding: 36px 32px 30px 32px;
 
@@ -99,16 +230,14 @@
     margin-bottom: 30px;
   }
   .email-feild {
-    max-width: 262px;
+    max-width: 340px;
     padding: 11px 16px;
-    margin-bottom: 50px;
   }
   .email .button {
-    top: 60px;
-    margin-right: 0px;
+    margin-right: 5px;
   }
   .container {
-    top: 280px;
+    top: 160px;
     padding-top: 240px;
   }
   .scroll-bt {
@@ -133,27 +262,72 @@
     display: flex;
     gap: 16px;
   }
-  footer a {
-    background-color: #F29D52;
-    border-radius: 21px;
-    padding: 7px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   footer a img {
     width: 18px;
     height: 18px;
   }
-  footer .tap-menu {
+  footer .sitemap {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
   }
-  .tap-menu a {
+  footer a {
     color: #767676;
-    background-color: white;
-    padding: 0px;
   }
 
-} */
+  .menulist {
+    width: 75%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 20px 22px;
+    background-color: #263140;
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 66px;
+    z-index: 100;
+  }
+  .menulist ul {
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 30px;
+  }
+  .menulist li:nth-child(4) {
+    margin-top: 20px;
+  }
+  .menulist li a {
+    color: white;
+    font-weight: 700;
+  }
+  .hamburger-menu .background {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 25%;
+
+    position: fixed;
+    z-index: 80;
+  }
+
+  .modal {
+    width: 300px;
+    height: 300px;
+    padding: 40px 50px 30px 50px;
+  }
+  article .catface {
+    width: 60px;
+    height: 62px;
+  }
+  article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  article p {
+    margin-bottom: 28px;
+  }
+}

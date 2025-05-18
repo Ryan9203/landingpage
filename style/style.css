@@ -288,3 +288,56 @@ footer a img {
 footer .sitemap {
   display: none;
 }
+article {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+.modal {
+  width: 600px;
+  height: 400px;
+  padding: 60px 108px 40px 108px;
+  margin: auto;
+  background-image: url(../img/modal-back.png);
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 20%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 90;
+}
+article .catface {
+  width: 110px;
+  height: 112px;
+  margin-bottom: 24px;
+}
+article h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #D97652;
+  margin-bottom: 12px;
+}
+article p {
+  font-size: 14px;
+  margin-bottom: 38px;
+}
+article .back {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 25%;
+
+  position: fixed;
+  z-index: 80;
+}
+
+.hamburger-menu {
+  display: none;
+}

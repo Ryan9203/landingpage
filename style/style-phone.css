@@ -194,6 +194,9 @@
     color: white;
     font-weight: 700;
   }
+  .hamburger-menu {
+    display: block;
+  }
   .hamburger-menu .background {
     width: 100%;
     height: 100%;

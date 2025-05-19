@@ -2,11 +2,12 @@
 
 ---
 
-반응형 Hubo landing page 제작
+# 🐾 HODU Landing Page
 
----
+**HODU Landing Page**는 반응형 웹 기반의 심플하고 직관적인 랜딩 페이지 프로젝트입니다. HTML과 CSS만으로 제작되었으며, 다양한 해상도에 대응하는 유연한 구조와 레이아웃을 가지고 있습니다.
 
-## 파일구조
+## 📂 파일 구조
+
 ```C
 ├─ index.html
 ├─ style
@@ -17,14 +18,32 @@
 ├─ font.css
 └─ reset.css
 ```
----
+
+## ✨ 주요 특징
+
+- 반응형 웹 디자인 구현 (`media query` 활용)
+- 모바일 뷰 최적화 (`style-phone.css`)
+- 1280px 이하 해상도 대응 (`style-responsive.css`)
+
+## 🛠 기술 스택
+
+- HTML5
+- CSS3 (반응형 + Flexbox)
+
 
 ## 작업 사항
 
 * 노션을 통해 공유된 요구사항 명세 및 Figma 디자인 적용
 
-* 시멘틱 마크업을 최대한 작성하였으며, 반응형 웹 구현을 위해 공유된 디자인 외 1280px, 720px 기준화면을 추가
+* 시멘틱 마크업을 최대한 작성
+<img src="./img/readme-img/시멘틱1.png" width="300"/>
+<img src="./img/readme-img/시멘틱2.png" width="300"/>
+<img src="./img/readme-img/시멘틱3.png" width="300"/>
+<img src="./img/readme-img/시멘틱4.png" width="300"/>
 
-* 스크롤 헤더의 경우 모든 해상도에서 고정으로 처리
+
+* 반응형 웹 구현을 위해 공유된 디자인 외 1280px, 720px 기준화면을 추가
+
+* 스크롤 헤더의 경우 모든 해상도에서 고정으로 처리,720px 이하 해상도부터 메뉴 버튼으로 전환
 
 * 모달창 및 모바일 해상도 hamburger menu 또한 구현 완료하였으며, 현재 주석처리한 상태

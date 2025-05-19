@@ -36,14 +36,13 @@
 * 노션을 통해 공유된 요구사항 명세 및 Figma 디자인 적용
 
 * 시멘틱 마크업을 최대한 작성
-<img src="./img/readme-img/시멘틱1.png" width="300"/>
-<img src="./img/readme-img/시멘틱2.png" width="300"/>
+<img src="./img/readme-img/시멘틱1.png" width="300" />
 <img src="./img/readme-img/시멘틱3.png" width="300"/>
-<img src="./img/readme-img/시멘틱4.png" width="300"/>
-
 
 * 반응형 웹 구현을 위해 공유된 디자인 외 1280px, 720px 기준화면을 추가
+<img src="./img/readme-img/1280px.png" width="300"/>
 
 * 스크롤 헤더의 경우 모든 해상도에서 고정으로 처리,720px 이하 해상도부터 메뉴 버튼으로 전환
+<img src="./img/readme-img/1280px.png" width="300"/>
 
 * 모달창 및 모바일 해상도 hamburger menu 또한 구현 완료하였으며, 현재 주석처리한 상태

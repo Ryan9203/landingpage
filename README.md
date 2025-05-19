@@ -46,3 +46,4 @@
 <img src="./img/readme-img/1280px.png" width="300"/>
 
 * 모달창 및 모바일 해상도 hamburger menu 또한 구현 완료하였으며, 현재 주석처리한 상태
+<img src="./img/readme-img/modal360px.png" width="300"/>

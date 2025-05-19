@@ -47,3 +47,13 @@
 
 * 모달창 및 모바일 해상도 hamburger menu 또한 구현 완료하였으며, 현재 주석처리한 상태
 <img src="./img/readme-img/modal360px.png" width="300"/>
+
+## 구현 한계 및 학습 방향
+
+* Position/Flex에 대한 이해 부족
+
+* Overflow에 대한 학습 부족으로 미완성 구현
+
+* class명 작성이 미숙하여 수정 및 관리가 어려움
+
+* Form 태그에 대한 학습과 이해가 필요
